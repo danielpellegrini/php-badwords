@@ -3,8 +3,7 @@
 
   $forbiddenWord = $_GET["badWord"];
 
-  $text = str_replace($forbiddenWord, '***', $text)
-
+  $text = str_replace($forbiddenWord, '***', $text);
 
  ?>
 
